@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment 2</string>
+    <string name="button">Solve</string>
+    <string name="start">S</string>
+    <string name="destination">D</string>
+    <string name="empty">E</string>
+    <string name="wall">W</string>
+    <string name="path">P</string>
+    <string name="attempted">A</string>
+</resources>
