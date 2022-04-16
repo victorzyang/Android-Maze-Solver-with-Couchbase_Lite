@@ -24,7 +24,7 @@ public class ThreadWithControl extends Thread{ //ThreadWithControl inherits from
 
         buttonCell.solveRecursiveHelper(startY, startX); //thread calls the recursive solver method
 
-        buttonCell.insertDataIntoDatabase();
+        buttonCell.insertDataIntoDatabase(); //calls the method in ButtonCell.java for adding data to database
 
     }
 
