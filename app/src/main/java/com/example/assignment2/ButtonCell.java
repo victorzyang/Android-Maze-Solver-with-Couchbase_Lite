@@ -104,6 +104,7 @@ public class ButtonCell extends Thread{
         mazeDoc.setString("document_type", "maze");
         mazeDoc.setDictionary("maze", mazesDict);
         try {
+            Log.i(TAG, "Inserting maze document to Database");
             database.save(mazeDoc); //Step 3 (from online doc): save document to database
         } catch (CouchbaseLiteException e) {
             e.printStackTrace();
